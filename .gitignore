@@ -1,0 +1,77 @@
+# General
+*~
+#*
+.#*
+*.log
+*.jou
+*.str
+*.backup
+*.bak
+*.swp
+*.tmp
+
+# Vivado Generated Directories
+.cache/
+.runs/
+.sim/
+.ip_user_files/
+.gen/
+project_*.sim/
+project_*.ip_user_files/
+project_*.gen/
+# If your project name is 'my_project', you might have:
+# my_project.sim/
+# my_project.ip_user_files/
+# my_project.gen/
+
+# Vivado Generated Files
+*.bit
+*.bin
+*.mcs
+*.elf
+*.mem
+*.bmm
+*.ltx
+*.sysdef
+*.hdf
+*.hwh
+*.html
+*.xml
+*.rpt
+*.pb
+*.vds
+*.ooc
+*.dcp
+*.xci
+*.bd
+*.bda
+*.wdb
+*.wcfg
+*.hw/
+*.data/
+
+# PetaLinux Generated Files and Directories (if applicable)
+build/
+pre-built/
+images/
+.petalinux/
+! .petalinux/metadata # Keep metadata if needed for PetaLinux project tracking
+*.o
+*.a
+*.elf
+project-spec/meta-plnx-generated/
+
+# Eclipse/SDK/Vitis workspace files (if applicable)
+.metadata/
+.settings/
+.cproject
+.project
+
+# Source files (explicitly NOT ignored, but good to list for clarity)
+# !*.v
+# !*.sv
+# !*.vhd
+# !*.vhdl
+# !*.xdc
+# !*.xpr
+# !*.tcl
