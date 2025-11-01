@@ -1,0 +1,3 @@
+set_switching_activity -default_toggle_rate 5.000
+set_switching_activity -default_toggle_rate 0.200
+set_switching_activity -default_toggle_rate 12.500
